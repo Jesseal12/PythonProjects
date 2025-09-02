@@ -1,11 +1,11 @@
 import random
 
-N= random.randint(1,1000000)
+N= float(input("Syötä pisteiden määrä"))
 n = 0
 toisto = 0
 while toisto!=N:
-    xPiste = random.randint(-1,1)
-    yPiste = random.randint(-1,1)
+    xPiste = random.uniform(-1,1)
+    yPiste = random.uniform(-1,1)
     toisto += 1
     if xPiste**2 + yPiste**2 < 1 :
         n +=1
