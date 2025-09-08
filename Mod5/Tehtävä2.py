@@ -1,4 +1,4 @@
-luku = int(input("Anna kokonaisluku ja lopeta tyhjällä merkkijonolla : " ))
+luku = int(input("Anna kokonaisluku ja lopeta 0:lla : " ))
 luvut = []
 first = False
 
