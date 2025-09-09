@@ -17,5 +17,7 @@ isoPizza = pizzaTime(isoSyote,isoHinta)
 
 if keskiPizza>isoPizza :
     print(f"Osta ison pizza. Saat {keskiPizza-isoPizza:0,2f} euroa edullisemman hinnan")
-else:
+elif keskiPizza<isoPizza:
     print(f"Osta keskikokoisen pizzan. Saat {isoPizza-keskiPizza} euroa edullisemman hinnan")
+else:
+     print("Osta minkä pizzan haluat")
