@@ -16,6 +16,7 @@ while paalla == True :
         lisays = True
         paalla = False
     elif aloitus =="lopeta" :
+        print("Kiitos käytöstä")
         paalla=False
 while haku :
     koodi = input("Syötä ICAO koodi tai lopeta ohjelma lopeta komenolla :")

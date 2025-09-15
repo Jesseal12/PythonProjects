@@ -28,8 +28,10 @@ def haeLentokentta(koodi):
 
 print(haeLentokentta("EFHK"))
 code = input("syötä koodi")
-kenttä = haeLentokentta(code)
+kentta = haeLentokentta(code)
 kentat = haeLentoKentat()
+for k in kentta :
+    print(f"Nimi : {k[3]}")
 
 for kentta in kentat:
     print(f"Nimi : {kentta[3]}")
