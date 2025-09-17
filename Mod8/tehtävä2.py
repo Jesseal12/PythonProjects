@@ -10,7 +10,7 @@ yhteys = mysql.connector.connect(
 )
 
 def isoCountryHaku(koodi):
-    sql = f"SELECT name , count(*) FROM airport WHERE airport.iso_country = %s"
+    sql = f"SELECT type , count(*) FROM airport WHERE iso_country = %s"
     kursori = yhteys.cursor(dictionary=True)
     kursori.execute(sql,(koodi,))
     arvo=kursori.fetchall()
@@ -21,4 +21,4 @@ maakoodi = input("Syötä maakoodi : ")
 maa = isoCountryHaku(maakoodi)
 
 for row in maa :
-    print(f"lentokenttä {row[3]}")
+    print(f" {row[3]} lentokenttää ")

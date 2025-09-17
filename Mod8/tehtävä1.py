@@ -11,7 +11,7 @@ yhteys = mysql.connector.connect(
 )
 
 def lentoKenttaHaku(koodi):
-    sql=f"SELECT (*) FROM airport WHERE ident = %s"
+    sql=f"SELECT * FROM airport WHERE ident = %s"
     kursori = yhteys.cursor(dictionary=True)
     kursori.execute(sql, (koodi,))
     arvo = kursori.fetchall()
