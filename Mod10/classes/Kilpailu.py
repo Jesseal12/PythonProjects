@@ -1,43 +1,42 @@
 import random
+from tabulate import tabulate
 
-from Mod9.Classes.Car import Car
-from Mod9.Tehtävä4 import kokonaismatka
+
 
 
 class Kilpailu :
-    def __init__(self,nimi,metrit,autolista):
+    def __init__(self,nimi,kilometrit,autolista):
         self.nimi = nimi
-        self.kilometriMäärä = metrit/1000
+        self.kilometriMäärä = kilometrit
         self.autoLista = []
 
-        for i in range(autolista):
-            randomSpeed = random.randint(100,200)
-            Car("ABC"+str(i+1),randomSpeed)
+
 
 
     def tunti_kuluu(self,tuntiMäärä):
 
         for auto in self.autoLista:
 
-            kokonaismatka = 0
-            while kokonaismatka < self.kilometriMäärä:
+
+
                 nopeusmuutos = random.randint(-10, 15)
                 auto.kiihdyta(nopeusmuutos)
                 auto.kulje(tuntiMäärä)
-                kokonaismatka += auto.matka/1000
 
-                print(f"{auto.rekisteri} on kulkenut {kokonaismatka:0.2f}m")
+
+
 
 
     def tulosta_tilanne(self):
+        tulostettavat = []
         for auto in self.autoLista :
-            print(f"auto :{auto.rekisteri} on kulkenut {kokonaismatka:0.2f}km  ")
+            tulostettavat.append([auto.rekisteri,auto.maxV,auto.nopeus,auto.matka])
+            print(tabulate(tulostettavat))
 
 
     def kilpailu_ohi(self):
         for auto in self.autoLista :
-            if kokonaismatka>=self.kilometriMäärä :
+            if auto.matka>=self.kilometriMäärä :
                 return True
-            else:
-                return False
-        return
+
+        return False

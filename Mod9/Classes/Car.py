@@ -20,6 +20,6 @@ class Car :
 
           return
       def kulje(self,aika):
-          self.matka =self.matka+ self.nopeus *aika
+          self.matka += self.nopeus *aika
 
           return

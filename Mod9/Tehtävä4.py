@@ -1,6 +1,6 @@
 import random
 
-from Classes.Car import Car
+from Mod9.Classes.Car import Car
 
 autot = []
 
@@ -20,7 +20,7 @@ for auto in autot:
         auto.kulje(1)
         kokonaismatka += auto.matka
 
-        print(f"{auto.rekisteri} on kulkenut {kokonaismatka:0.2f}m" )
+        #print(f"{auto.rekisteri} on kulkenut {kokonaismatka:0.2f}m" )
 
 
 

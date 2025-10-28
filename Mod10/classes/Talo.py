@@ -13,6 +13,7 @@ class Talo :
 
     def paloHalytys(self):
         print("Nyt on tulipalo 3 2 1 Let's jam")
-        for hissi in self.hissitLkm :
-            hissi.siirryKerrokseen(self.alinKerros)
+        for i,hissi in enumerate(self.hissitLkm) :
+            print(f"Hissin numero {i+1}laskee alas" )
+            hissi.siirryKerrokseen(hissi.alinKerros)
         print(f"Kaikki hissit ovat {self.alinKerros} keroksessa")
