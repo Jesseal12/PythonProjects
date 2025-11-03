@@ -1,0 +1,45 @@
+
+.container {
+
+    width: 1.5rem;
+    margin: auto;
+}
+html{
+    font-family: Arial,Verdana,sans-serif;
+
+}
+
+header{
+
+    background-color: yellow;
+
+}
+nav{
+    background-color: darkgoldenrod;
+
+
+
+}
+
+
+p{
+    font-size: 1.5rem;
+    color: black;
+    font-family:sans-serif ;
+}
+
+main {
+
+    background-color:yellow;
+
+}
+
+footer{
+
+    background-color: yellowgreen;
+}
+
+a{
+    color: black;
+
+}

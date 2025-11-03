@@ -21,22 +21,24 @@ class Car:
         return
 
     def kulje(self, aika):
-        self.matka += self.nopeus * aika
+        self.matka += self.maxV * aika
 
         return
 
-class Sahkoauto:
+class Sahkoauto(Car):
     def __init__(self,rekisteri,maxV,akkukapasiteetti):
         super().__init__(rekisteri,maxV)
         self.akkuKapasiteetti=akkukapasiteetti
+        self.matka=0
         
     def kulje(self,aika):
         super().kulje(aika)
 
-class Polttomoottori:
+class Polttomoottori(Car):
     def __init__(self,rekisteri,maxV,bensatankki):
         super().__init__(rekisteri,maxV)
         self.bensaTankki=bensatankki
+        self.matka= 0
     
     def kulje(self,aika):
         super().kulje(aika)

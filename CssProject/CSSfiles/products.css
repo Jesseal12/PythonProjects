@@ -1,0 +1,50 @@
+html{
+    font-family: Arial,Verdana,sans-serif;
+
+}
+
+header{
+
+    background-color: yellow;
+
+}
+
+
+nav{
+    background-color: darkgoldenrod;
+    margin:auto;
+
+
+}
+
+
+article{
+
+
+
+}
+
+p{
+    font-size: 1.5rem;
+    color: black;
+    font-family:sans-serif ;
+}
+
+main {
+
+    background-color:yellow;
+
+}
+
+footer{
+
+    background-color: yellowgreen;
+}
+
+
+
+
+a{
+    color: black;
+
+}
