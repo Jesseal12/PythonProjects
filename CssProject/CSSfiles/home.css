@@ -1,8 +1,9 @@
 
 .container {
 
-    width: 1.5rem;
-    margin: auto;
+    width: 100%;
+    margin:1rem 2rem 1rem 1rem
+
 }
 html{
     font-family: Arial,Verdana,sans-serif;
@@ -12,15 +13,29 @@ html{
 header{
 
     background-color: yellow;
+    margin-left: 18rem;
 
 }
+
+body{
+    background-color: yellow;
+
+}
+
+
 nav{
     background-color: darkgoldenrod;
-
+    padding-top:0.5rem ;
+    padding-bottom:0.5rem ;
+    display: flex;
+    justify-content: flex-end;
 
 
 }
 
+img{
+    margin-left: 15rem;
+}
 
 p{
     font-size: 1.5rem;
@@ -33,6 +48,12 @@ main {
     background-color:yellow;
 
 }
+ol{
+
+    padding: 0;
+
+}
+
 
 footer{
 

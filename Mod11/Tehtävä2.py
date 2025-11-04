@@ -7,3 +7,4 @@ Sahko.kulje(3)
 Poltto.kulje(3)
 print(f"{Sahko.matka } km")
 print(f"{Poltto.matka} km")
+#tehtäväanossa ei olla specifisoitu halutaanko akku ja bensan kuluvan joten en ole lisänyt niitä funktion ominaisuudeksi
