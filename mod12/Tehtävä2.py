@@ -18,8 +18,10 @@ pyynto2=f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&ap
 vastaus2= requests.get(pyynto2).json()
 print(vastaus2)
 desiredValues.append(vastaus2["main"]["temp"])
+saa = vastaus2["weather"][0]["description"]
 
 
 
 print(desiredValues)
+print(saa)
 print(f"{vastaus2["main"]["temp"]-273.15:0.2f} C astetta")

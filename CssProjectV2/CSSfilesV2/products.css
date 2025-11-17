@@ -1,0 +1,104 @@
+html{
+    font-family: Arial,Verdana,sans-serif;
+
+}
+
+ img{
+
+    width:10rem ;
+    height:10rem ;
+
+}
+#logo {
+    height:5rem ;
+    width: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Container {
+    background-color: yellow;
+
+
+    width: auto;
+    margin:auto;
+
+}
+
+div{
+    display: flex;
+
+    margin: auto;
+}
+
+.box {
+    flex: 1;
+    display:inline-block;
+    margin-right: 2rem;
+   margin-left:2rem ;
+}
+
+
+
+nav{
+    background-color: darkgoldenrod;
+    padding-top:0.1rem ;
+    padding-bottom:0.1rem ;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+
+article{
+
+    width:5rem;
+    height: 10rem;
+    display: flex;
+    padding-right: 5rem;
+    border: 2px darkgoldenrod;
+    background-color: darkgoldenrod;
+
+
+}
+
+FrontArticle {
+
+
+
+    display:inline-block;
+
+
+}
+
+
+
+article p {
+    font-size: 1rem;
+    justify-content: right;
+    padding-right: 1em;
+}
+p{
+
+
+    font-size: 3rem;
+    color: black;
+    font-family:sans-serif ;
+}
+
+
+
+footer{
+
+    background-color: yellowgreen;
+}
+
+
+
+
+a{
+    color: black;
+
+}

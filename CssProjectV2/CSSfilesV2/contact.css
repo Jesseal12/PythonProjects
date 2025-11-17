@@ -1,0 +1,67 @@
+html{
+    font-family: Arial,Verdana,sans-serif;
+
+}
+
+.container {
+
+    width: 100%;
+    margin:auto;
+
+}
+
+#logo {
+    height:5rem ;
+    width: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+div{
+    background-color: yellow;
+}
+
+
+
+header{
+
+    background-color: yellow;
+
+}
+
+
+
+p{
+    font-size: 1.5rem;
+    color: black;
+    font-family:sans-serif ;
+    background-color: darkgoldenrod;
+}
+
+
+
+nav{
+    background-color: darkgoldenrod;
+    padding-top:0.1rem ;
+    padding-bottom:0.1rem ;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+main {
+
+    background-color:yellow;
+
+}
+
+footer{
+
+    background-color: yellowgreen;
+}
+
+a{
+    color: black;
+
+}
