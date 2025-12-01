@@ -3,7 +3,7 @@ html{
 
 }
 
- img{
+article img{
 
     width:10rem ;
     height:10rem ;
@@ -12,8 +12,8 @@ html{
 #logo {
     height:5rem ;
     width: 5rem;
-    display: flex;
-    justify-content: flex-start;
+    margin-right: 60rem ;
+
 }
 
 .Container {
@@ -63,22 +63,29 @@ article{
 
 
 }
-
-FrontArticle {
+#Alpha{
+    height: 50vH;
+    width: 100vW;
+}
+#FrontArticle {
 
 
 
     display:inline-block;
-
+    margin: 10px auto;
 
 }
 
 
+#FrontArticle img{
 
+    width: 100%!important;
+
+}
 article p {
     font-size: 1rem;
     justify-content: right;
-    padding-right: 1em;
+    width: 10rem;
 }
 p{
 
@@ -87,7 +94,10 @@ p{
     color: black;
     font-family:sans-serif ;
 }
+#Beta{
 
+
+}
 
 
 footer{

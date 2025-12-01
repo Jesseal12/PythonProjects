@@ -13,8 +13,8 @@ html{
 #logo {
     height:5rem ;
     width: 5rem;
-    display: flex;
-    justify-content: flex-start;
+    margin-right: 60rem ;
+
 }
 div{
     background-color: yellow;
